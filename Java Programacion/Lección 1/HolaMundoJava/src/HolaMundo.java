@@ -100,7 +100,7 @@ public class HolaMundo {
         var numDouble = 10.0;
         System.out.println("numDouble = " + numDouble);
         */
-        
+        /*
         //Tipos primitivos char
         
         char miVariableChar = 'a';
@@ -112,7 +112,7 @@ public class HolaMundo {
         System.out.println("varCaracterDecimal = " + varCaracterDecimal);
         char varCaracterSimbolo = '$'; //Un caracter especial, podemos copiar y pegar desde unicode
         System.out.println("varCaracterSimbolo = " + varCaracterSimbolo);
-
+        */
         //Tipos primitivos tipos booleanos
         boolean varBool = true;
         System.out.println("varBool = " + varBool);
