@@ -114,10 +114,53 @@ public class HolaMundo {
         System.out.println("varCaracterSimbolo = " + varCaracterSimbolo);
         */
         //Tipos primitivos tipos booleanos
+        
+        /*
         boolean varBool = true;
         System.out.println("varBool = " + varBool);
         if(varBool){
             System.out.println("La bandera es verde");
         }
+        else{
+            System.out.println("La bandera es roja");
+        }
+        
+        //Algoritmo para determinar si es mayor de edad
+        int edad = 34;
+        
+        if(edad >= 18){
+            System.out.println("Es mayor de edad");
+        }else{
+            System.out.println("No es mayor de edad");
+        }
+*/
+        
+        //Conversión de tipos primitivos
+        /*
+        var edad = Integer.parseInt("20");
+        System.out.println(edad );
+        var pi = Double.parseDouble("3.14");
+        System.out.println("pi = " + pi);
+        
+        var entrada =  new Scanner(System.in);
+        System.out.println("Digite su entrada:");
+        edad = Integer.parseInt(entrada.nextLine());
+        System.out.println("entrada = " + edad);
+*/
+        //Conversión de tipos primitivos en Java parte 2
+        
+        var edadTexto = String.valueOf(10);
+        System.out.println("edadTexto = " + edadTexto);
+        
+        var fraseChar = "Programadores".charAt(0);
+        System.out.println("fraseChar = " + fraseChar);
+        System.out.println("Digite un caracter: " );
+        
+        var entrada = new Scanner(System.in);
+        fraseChar = entrada.nextLine().charAt(0);
+        System.out.println("entrada = " + fraseChar);
+        
+        
+        
     }
 }
