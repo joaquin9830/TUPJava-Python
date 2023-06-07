@@ -149,16 +149,17 @@ public class HolaMundo {
 */
         //Conversión de tipos primitivos en Java parte 2
         
-        var edadTexto = String.valueOf(10);
-        System.out.println("edadTexto = " + edadTexto);
-        
-        var fraseChar = "Programadores".charAt(0);
-        System.out.println("fraseChar = " + fraseChar);
-        System.out.println("Digite un caracter: " );
-        
-        var entrada = new Scanner(System.in);
-        fraseChar = entrada.nextLine().charAt(0);
-        System.out.println("entrada = " + fraseChar);
+//        var edadTexto = String.valueOf(10);
+//        System.out.println("edadTexto = " + edadTexto);
+//        
+//        var fraseChar = "Programadores".charAt(0);
+//        System.out.println("fraseChar = " + fraseChar);
+//        System.out.println("Digite un caracter: " );
+//        
+//        var entrada = new Scanner(System.in);
+//        fraseChar = entrada.nextLine().charAt(0);
+//        System.out.println("entrada = " + fraseChar);
+//        
         
         
         
