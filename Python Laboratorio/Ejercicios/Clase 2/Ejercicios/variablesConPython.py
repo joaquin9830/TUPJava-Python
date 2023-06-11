@@ -77,7 +77,7 @@ print(f"El resultado de la exponenciación es: {exponente}")
 modulo = operandoA % operandoB
 print(f"El resultado de la operación es: {modulo}")
 '''
-
+'''
 #Ejercicio area de un rectángulo
 #Se solicita calcular el área y el perímetro de un rectángulo.
 alto = int(input("Por favor digite el alto del rectangulo:"))
@@ -86,3 +86,71 @@ area = alto * ancho
 
 perimetro= (alto + ancho) *2
 print(f"El area del rectángulo es: {area} y el perimetro del mismo es: {perimetro}")
+'''
+
+'''
+miVariable3 = 10
+print(miVariable3)
+
+#Operadores de reasignación
+miVariable3 = miVariable3 + 1
+print(miVariable3)
+
+miVariable3 += 1
+print(miVariable3)
+
+miVariable3 -= 1
+print(miVariable3)
+
+miVariable3 *= 3
+print(miVariable3)
+
+miVariable3 /= 2
+print(miVariable3)
+
+###Operadores de comparación
+
+a = 4
+b = 2
+
+resultado = a == b
+print(resultado)
+
+#Operador diferente
+
+resultado = a != b
+print(resultado)
+
+#Operador Mayor que
+resultado = a > b
+print(resultado)
+
+#Operador menor que
+resultado = a < b
+print(resultado)
+'''
+
+#Ejercicio: Número par o impar
+#Solicitamos que el usuario ingrese un número
+#Este se asigna a una variable
+#Utilizamos la estructura 'if else'
+
+
+numero = int(input("Por favor digite un número:"))
+
+if (numero % 2 == 0):
+    print(f"El numero: {numero} es par")
+else:
+    print(f"El número {numero} es impar")
+
+#Ejercicio: Es mayor de edad
+#Pedir un número al usuario
+#Almacenar el valor en una variable
+#Usar la estructura 'if else'
+
+edad = int(input("Por favor ingrese su edad: "))
+
+if edad >= 18:
+    print(f"Usted tiene {edad} y es mayor de edad")
+else:
+    print(f"Usted tiene {edad} y es menor de edad")
