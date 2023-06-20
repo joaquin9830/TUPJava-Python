@@ -184,6 +184,7 @@ public class HolaMundo {
             System.out.println("El número es impar");
         }
     */
+        //Clase 8 JAVA  operadores de asignación
         
         int varNum1 = 1, varNum2 = 4;
         int varNum3 = varNum1 + 6 - varNum2;
