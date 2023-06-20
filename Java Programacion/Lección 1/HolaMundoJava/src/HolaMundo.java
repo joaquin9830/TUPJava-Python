@@ -161,6 +161,49 @@ public class HolaMundo {
 //        System.out.println("entrada = " + fraseChar);
 //        
         
+/*
+    int num1 = 5, num2 = 4;
+    var solucion = num1 + num2;
+        System.out.println("solucion de suma = " + solucion);
+        
+        solucion = num1 - num2;
+        System.out.println("solucion de resta = " + solucion);
+        
+        solucion = num1 * num2;
+        System.out.println("solucion de multiplicación = " + solucion);
+        
+        solucion = num1 / num2;
+        System.out.println("solucion de división = " + solucion);
+        
+        solucion = num1 % num2; //Guarda el residuo de la división
+        System.out.println("solucion de residuo = " + solucion);
+        
+        if (num1 % 2 == 0){
+            System.out.println("El número es par");
+        }else{
+            System.out.println("El número es impar");
+        }
+    */
+        
+        int varNum1 = 1, varNum2 = 4;
+        int varNum3 = varNum1 + 6 - varNum2;
+        System.out.println("varNum3 = " + varNum3);
+        
+        varNum1 += 1; //Es lo mismo que varNum1 = varNum1 + 1
+        System.out.println("varNum1 = " + varNum1);
+        
+        varNum1 -= 1;
+        System.out.println("varNum1 = " + varNum1);
+        
+        varNum1 *= 2;
+        System.out.println("varNum1 = " + varNum1);
+        
+        varNum1 /= 1;
+        System.out.println("varNum1 = " + varNum1);
+        
+        varNum1 %= 2;
+        System.out.println("varNum1 = " + varNum1);
+        
         
         
     }
