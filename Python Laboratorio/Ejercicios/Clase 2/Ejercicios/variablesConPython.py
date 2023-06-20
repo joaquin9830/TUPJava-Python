@@ -231,7 +231,7 @@ else:
 #Digite el ID del libro
 #Digite el precio del libro
 #Indicar si el envío es gratuito
-
+'''
 print("Por favor ingrese los siguientes datos del libro ")
 nombreLibro = input("Ingrese el nombre: ")
 idLibro = int(input("Ingrese el ID del libro: "))
@@ -245,8 +245,11 @@ else:
     envioGratuito = "Por favor digite de nuevo, los valores permitidos son: True o False"
 
 print(f'''
-            Nombre: {nombreLibro} 
-            ID:#{idLibro} 
-            Precio: ${precioLibro} 
-            Envio gratuito?: {envioGratuito}
-''')
+ #           Nombre: {nombreLibro}
+  #          ID:#{idLibro}
+   #         Precio: ${precioLibro}
+    #        Envio gratuito?: {envioGratuito}
+#''')
+
+
+
